@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Victor Quiroga">
+    <meta name="keywords" content="starbucks">
+    <meta name="description" content="sitio web starbucks">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./image/starbucks.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+      <!-- ===== bloque encabezado inicio ===== -->   
+        <header class="header">
+            <div class="header__container-logo">
+                <img class="header__logo" src="./image/starbucks.png" alt="logo">
+            </div> 
+            <div class="header__container-icons"> 
+                <i class="header__icon-list bi bi-list"></i>
+            </div>
+            <nav class="header__nav">
+                <a class="header__nav-link" href="#">INICIO</a>
+                <a class="header__nav-link" href="#">CAFE</a>
+                <a class="header__nav-link" href="#">SOBRE NOSOTROS</a>
+                <a class="header__nav-link" href="#">DELIVERY</a>
+            </nav>
+            <div class="header__container-icon">              
+                <i class="header__user-icon bi bi-person-circle"></i>
+            </div>
+        </header>
+      <!-- ===== bloque encabezado final ===== -->
+      <!-- ===== bloque principal inicio ===== -->
+        <main class="main">
+            <div class="main__container-text">
+                <div class="main__container-title">
+                    <h1 class="main__title">No solo es Cafe es <span class="main__title--green">Starbucks</span></h1>
+                </div>
+                <div class="main__container-p">
+                    <p class="main__p"> Cada día, acudimos a trabajar con la esperanza de conseguir dos cosas: compartir el mejor café con nuestros amigos y contribuir a que el mundo sea un poco mejor. Así era cuando abrió la primera tienda Starbucks en 1971, y así continúa siendo hoy.</p>
+                    </p>
+                </div> 
+            </div> 
+            <div class="main__container-img">
+                <img class="main__img" src="./image/starbucks.png" alt="logo">        
+            </div>            
+        </main>
+     <!-- ===== bloque principal final ===== -->
+     <!-- =====bloque galeria inicial ===== -->
+        <section class="gallery">
+            <div class="gallery__container-img">
+                <img class="gallery__img gallery__img--margin" src="./image/gallery-1.png" alt="gallery">
+                <img class="gallery__img gallery__img--margin" src="./image/gallery-2.png" alt="gallery">
+                <img class="gallery__img gallery__img--margin" src="./image/gallery-3.png" alt="gallery">
+            </div>
+        </section>
+     <!-- ===== bloque galeria final ===== -->
+     <!-- ===== bloque contact inicio ===== -->
+        <section class="contact">
+            <h3 class="contact__title">CONTACTANOS</h3>
+            <form class="contact__form">
+            <div class="contact__container-email contact__container-input">
+                <label class="contact__label">correo electronico</label>
+                <input class="contact__input" type="email" name="contact_email" placeholder="coloque su correo electronico" required />
+            </div>
+            <div class="contact__container-comment contact__container-input">
+                <label class="contact__label">comentario</label>
+                <textarea class="contact__textarea" name="contact_comment" placeholder="coloque su comentario" required></textarea>
+            </div>
+            <input class="contact__form-btn" type="submit" />
+            </form>
+        </section>
+     <!-- ===== bloque contact final ===== --> 
+     <!-- ===== bloque cards inicio ===== -->   
+        <section class="cards">
+            <div class="cards__card">
+            <div class="cards__card-circle">5%</div>
+                <img class="cards__card-img" src="./image/card-1.png" alt="card_imag-1">
+                <div class="cards__card-container-text">
+                    <h4 class="cards__card-title">Aplicacion de <span class="cards__card-title--yellow">Starbucks</span></h4>
+                    <p class="cards__card-description">
+                        Ahorre tiempo con click & collect y recolecte sus estrellas.
+                    <br>
+                        Hacer pedido nunca ha sido tan facil.
+                    </p>
+                    <br>
+                    <a class="cards__card-btn" href="#">Pruebelo</a>
+                </div>               
+            </div> 
+            <div class="cards__card">
+            <div class="cards__card-circle">10%</div>
+                <img class="cards__card-img" src="./image/card-2.png" alt="card_imag-2">
+                <h4 class="cards__card-title">Starbucks <span class="cards__card-title--yellow">Delivery</span></h4>
+                <p class="cards__card-description">
+                    Starbucks entrega su comida y bebida favorita en la puerta de su casa.
+                </p>
+                <div class="cards__card-container-btn">
+                    <a class="cards__card-btn cards__card-btn--small" href="#">Entrega por UberEats</a>
+                    <a class="cards__card-btn cards__card-btn--big" href="#">Entrega por PedidosYa</a>
+                </div>          
+            </div> 
+            <div class="cards__card">
+                <img class="cards__card-img" src="./image/card-3.png" alt="card_imag-3">
+                <h4 class="cards__card-title">Novedades<span class="cards__card-title--yellow">Starbucks</span></h4>
+                <p class="cards__card-description">
+                    Mantengase informado de nuestras ultimas novedades y actualizaciones.
+                </p>                  
+                <a class="cards__card-btn" href="#">Mas Informacion</a>
+            </div> 
+            <div class="cards__card">
+                <img class="cards__card-img" src="./image/card-4.png" alt="card_imag-4">
+                <h4 class="cards__card-title">Historias <span class="cards__card-title--yellow">Starbucks</span></h4>
+                <p class="cards__card-description">
+                    Descubra nuestra empresa y nuestra historia.
+                </p>    
+                <a class="cards__card-btn" href="#">Mas Informacion</a>
+            </div> 
+        </section>
+     <!-- ===== bloque cards final ===== -->
+     <!-- ===== bloque pie inicio ===== -->
+        <footer class="footer">
+            <div class="footer__container-user">
+                <a class="footer__login" href="#">Iniciar Sesion</a>
+                <a class="footer__register" href="#">Registrarse</a>
+            </div>
+            <div class="footer__container-icons">
+                <i class="footer__icon bi bi-whatsapp"></i>
+                <i class="footer__icon bi bi-facebook"></i>
+                <i class="footer__icon bi bi-twitter"></i>
+            </div>
+            <div class="footer__container-contact">
+                <a href="#" class="footer__contact">Contactanos Aqui</a>
+            </div>
+        </footer>
+    
+</body>
+</html>
